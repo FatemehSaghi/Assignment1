@@ -1,0 +1,5 @@
+num = int (input ('enter a 6-digit number = '))
+num2 = ((num // 10) % 10)
+num5 = ((num // 10000) % 10)
+sum = (num2 + num5)
+print ('sum of number 2 and 5 :\n',sum)
